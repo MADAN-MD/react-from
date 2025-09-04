@@ -27,7 +27,12 @@ const Form = () => {
         </label>
         <input id="text" type="number" className="form-control" />
       </div>
-
+      <div className="mb-3">
+        <label htmlFor="email" className="form-label">
+          Email
+        </label>
+        <input id="email" type="emai" className="form-control" />
+      </div>
       <button className="btn btn-primary">Submit</button>
     </form>
   );
