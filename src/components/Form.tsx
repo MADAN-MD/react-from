@@ -21,6 +21,12 @@ const Form = () => {
         </label>
         <input id="age" type="number" className="form-control" />
       </div>
+      <div className="mb-3">
+        <label htmlFor="age" className="form-label">
+          Address
+        </label>
+        <input id="text" type="number" className="form-control" />
+      </div>
 
       <button className="btn btn-primary">Submit</button>
     </form>
